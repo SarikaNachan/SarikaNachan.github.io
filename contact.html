@@ -5,65 +5,49 @@ published: true
 ---
 <!-- Main Container -->
 
+<div class="row container-kamn">
+  <img src="assets/img/slider/slide1.jpg" class="blog-post" alt="Feature-img" align="right" width="100%">
+</div>
+
 <div class="container-fluid-kamn">
   <div class="row">
-    <div>
-      <iframe width="100%" height="450px" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="{{ site.google_map }}"></iframe>
-      <br />
-    </div>
     <div class="container">
       <div class="col-lg-4">
-        <h4>Find us at:</h4>
+        <h4>Get in Touch: Call, Email, or Stop By:</h4>
 
-        <p class="block-author">{{ site.company_name }}</p>
-        <p>{{ site.address_line }}</p>
-        <p>Phone: {{ site.telephone_number }}</p>
-        <p>Fax: {{ site.fax_number }}</p>
-
-        <em class="block-author">Email: {{ site.company_email }}</em> <br>
-        <br>
-        <!-- p class="lead">Social Link</p><hr>
-        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
-          <a href="#"><img src="assets/img/social-icons/btn_skype.png" alt="Skype"></a>
-          Call us
-        </div>
-        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
-          <a href="#"><img src="assets/img/social-icons/btn_facebook.png" alt="Facebook"></a>
-          Like us
-        </div>
-        <div class="col-lg-4 col-md-4 col-sm-3 col-xs-12">
-          <a href="#"><img src="assets/img/social-icons/btn_twitter.png" alt="Twitter"></a>
-          Follow us
-        </div>
-        <br !-->
+        <p class="block-author">We look forward to meeting you, understanding your unique needs, and assisting you in finding the ideal solutions.</p>
       </div>
       <div class="col-lg-8">
         <div class="feedback-form">
 
           <div id="contact-response"></div>
-          
-          <form action="http://templates.designorbital.com/baleen/contact.php" method="post" id="contact-form">
-            <fieldset>
-              <div class="form-group form-group-fullname">
-                <label class="control-label" for="fullname">NAME *</label>
-                <input type="text" class="form-control" name="fullname" id="fullname" placeholder="Enter Your Name">
-              </div>
-              <div class="form-group form-group-email">
-                <label class="control-label" for="email">E-MAIL *</label>
-                <input type="text" class="form-control" name="email" id="email" placeholder="Enter Your E-Mail">
-              </div>
-              <div class="form-group form-group-message">
-                <label class="control-label" for="message">MESSAGE *</label>
-                <textarea class="form-control" name="message" id="message" rows="3"></textarea>
-              </div>           
-              <button type="submit" class="btn btn-primary">Submit</button>
-            </fieldset>
+
+          <form action="https://formspree.io/mknqajve" method="POST">
+            <input type="hidden" name="_next" value="//" />
+            <p>
+              <label>Name: </label>
+              <input type="text" name="name" class="formInput" required />
+            </p>
+
+            <p>
+              <label>Email: </label>
+              <input type="email" name="_replyto" class="formInput" required />
+            </p>
+
+            <p>
+              <label>How can we assist you in reaching your goals?: </label>
+              <textarea name="comments" class="formInput" required></textarea>
+            </p>
+
+            <p>
+              <input type="submit" value="Send">
+            </p>
           </form>
-          
-        </div> 
+
+        </div>
       </div>
     </div>
   </div>
-</div>    
-    
+</div>
+
 <!--End Main Container -->
