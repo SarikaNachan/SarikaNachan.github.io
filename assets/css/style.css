@@ -377,6 +377,10 @@ address {
     position: absolute;
     font-size: 37px;
   }
+
+  .pull-right {
+    float: none !important;
+  }
 }
 
 .paragraph-text {
@@ -434,6 +438,10 @@ p.blog-text {
     height: 60px;
     width: 60px;
   }
+
+  .pull-right {
+    float: none !important;
+  }
 }
 
 @media (max-width:480px) {
@@ -442,8 +450,13 @@ p.blog-text {
     width: 50px;
   }
 
-  .logoHeader, .services-header-body {
+  .logoHeader,
+  .services-header-body {
     font-size: 20px;
+  }
+
+  .pull-right {
+    float: none !important;
   }
 }
 
