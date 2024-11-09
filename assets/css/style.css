@@ -223,7 +223,7 @@ address {
 .nav-pills>li.selected>a:hover,
 .nav-pills>li.selected>a:focus {
   color: #ffffff;
-  background-color: #1bbd9b;
+  background-color: #2b579a;
 }
 
 /*
@@ -251,7 +251,7 @@ address {
 .nav-pills-centered>.nav-pills>li>a.selected,
 .nav-pills-centered>.nav-pills>li>span.selected {
   color: #ffffff;
-  background-color: #1bbd9b;
+  background-color: #2b579a;
 }
 
 /*
@@ -260,7 +260,7 @@ address {
 * ==========================================================================
 */
 .active {
-  background: #74B9B9 !important;
+  background: #2b579a !important;
   color: white;
 }
 
@@ -297,15 +297,21 @@ address {
 }
 
 .side-left {
-  background: #528C7C;
+  background: #2b579a;
   box-shadow: 3px grey;
   color: white;
   padding: 30px;
   letter-spacing: .9px;
 }
 
-@media (min-width: 800px) {
+.navbar-default .navbar-nav>.active>a,
+.navbar-default .navbar-nav>.active>a:hover,
+.navbar-default .navbar-nav>.active>a:focus {
+  color: #fff;
+  background-color: #2b579a;
+}
 
+@media (min-width: 800px) {
   .side-left {
     height: 1248px;
   }
@@ -416,12 +422,16 @@ p.blog-text {
 }
 
 .office-logo {
-  width: 100px;
+  width: 60px;
+}
+
+.logoHeader {
+  color: #2b579a;
 }
 
 @media (max-width: 768px) {
   .office-logo {
-    height: 100px;
+    height: 60px;
     width: 60px;
   }
 }
@@ -457,7 +467,7 @@ p.blog-text {
 }
 
 .feedback-section .address-section .address-icon {
-  color: #1bbd9b;
+  color: #2b579a;
   font-size: 48px;
   line-height: 48px;
   margin-bottom: 30px;
@@ -496,7 +506,7 @@ p.blog-text {
 }
 
 .services-section .services-icon {
-  color: #1bbd9b;
+  /* color: #2b579a; */
   margin-bottom: 30px;
 }
 
@@ -506,6 +516,14 @@ p.blog-text {
 
 .services-section .services-desc {
   margin-bottom: 30px;
+}
+
+.services-body {
+  width: 100%;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
 }
 
 @media (max-width: 767px) {
@@ -526,14 +544,14 @@ p.blog-text {
 .services-icon .fa:hover {
   padding: 0 10px 0 10px;
   color: white;
-  background: #1BBD9B;
+  background: #2b579a;
   border-radius: 3px;
   transition: .4s;
 }
 
 .services-group {
   padding: 10px;
-  background: #061F20;
+  background: #2b579a;
   color: white;
 }
 
