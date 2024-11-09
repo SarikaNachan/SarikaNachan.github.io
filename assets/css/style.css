@@ -436,6 +436,17 @@ p.blog-text {
   }
 }
 
+@media (max-width:480px) {
+  .office-logo {
+    height: 50px;
+    width: 50px;
+  }
+
+  .logoHeader, .services-header-body {
+    font-size: 20px;
+  }
+}
+
 /*
 * ==========================================================================
 * Feedback Section
@@ -499,6 +510,8 @@ p.blog-text {
 
 .services-section .services-header .services-header-title {
   margin-bottom: 15px;
+  color: #2b579a;
+  font-weight: bold;
 }
 
 .services-section .services-row-tail {
